@@ -25,9 +25,9 @@ public class Task1Test {
     }
 
     @Test
-    public void getLatestCommit_shouldReturnCherryPickedCommitMessage() {
+    public void task1_shouldReturnCherryPickedCommitMessage() {
         List<Commit> commit = client.getAllCommits();
-        Assertions.assertEquals("Fixes markdown on headings", commit.get(0).getCommits().getMessage());
+        Assertions.assertEquals("Add constructor to Task1", commit.get(0).getCommits().getMessage());
     }
 
 }
