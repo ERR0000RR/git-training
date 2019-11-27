@@ -26,7 +26,7 @@ public class Task1Test {
 
     @Test
     public void task1_shouldReturnCherryPickedCommitMessage() {
-        List<Commit> commit = client.getAllCommits();
+        List<Commit> commit = client.getCommits("task1");
         Assertions.assertEquals("Add constructor to Task1", commit.get(0).getCommits().getMessage());
     }
 
