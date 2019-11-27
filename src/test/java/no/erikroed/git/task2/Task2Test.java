@@ -26,7 +26,7 @@ public class Task2Test {
 
     @Test
     public void task2_shouldReturnRevertCommitMessage() {
-        List<Commit> commit = client.getAllCommits();
+        List<Commit> commit = client.getCommits("task2");
         Assertions.assertEquals("Revert \"Add startBuild method\"", commit.get(0).getCommits().getMessage());
     }
 
