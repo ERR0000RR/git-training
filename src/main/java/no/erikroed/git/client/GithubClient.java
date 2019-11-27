@@ -26,12 +26,13 @@ public class GithubClient {
         this.repo = repo;
     }
 
-    public List<Commit> getAllCommits() {
+    public List<Commit> getCommits(String branch) {
         Response response = client.target(baseUrl)
                 .path("repos")
                 .path(user)
                 .path(repo)
                 .path("commits")
+                .queryParam("sha", branch)
                 .request()
                 .accept(APPLICATION_JSON)
                 .get();
