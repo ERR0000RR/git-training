@@ -9,7 +9,8 @@ public class Task1 {
      * 3) Commit this change with following commit message "Add constructor to Task1"
      * 4) Checkout the task1 branch
      * 5) In your preferred way, cherry-pick the commit from the branch you created in step 1 to this branch
-     * 6) Run the Task1Test and check if you did it correctly -> test == true ? checkoutTask2 : finishTask1
+     * 6) Push the commit on the task1 branch
+     * 7) Run the Task1Test and check if you did it correctly -> test == true ? checkoutTask2 : finishTask1
      */
 
 }
