@@ -13,7 +13,7 @@ public class Task3 {
      * and should print "<name> is building..." to the console
      * 4) Change the constructor to call this method and use your name as argument (or keep using Bob)
      * 5) Commit this changes with the message "Add startBuild method"
-     * 6) Push all the changes to remote repository
+     * 6) Push all the changes to remote branch
      * 7) Oh no... Bob was not ready for this, let's please Bob by remove this commits with the reset functionality.
      * 8) Do reset with --hard flag and force push this changes (if you don't force this push, the commits will return)
      * 9) Run the Task3Test and check if you did it correctly -> test == true ? waitForMoreTasksOrContribute : finishTask3
