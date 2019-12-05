@@ -7,7 +7,7 @@ public class Task3 {
      * Disclaimer: This task will erase history, be sure to know what you are doing if you use this command in
      * projects where you collaborate with other developers(?) like Bob.
      *
-     *  1) Create a constructor in this file that prints out "Bob is building..." to the console
+     * 1) Create a constructor in this file that prints out "Bob is building..." to the console
      * 2) Commit this change with following commit message "Add constructor to Task3"
      * 3) Create a private method called startBuild() that takes a name of type String as input parameter
      * and should print "<name> is building..." to the console
